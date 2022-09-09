@@ -1,0 +1,11 @@
+div{
+    background-color: gray;
+}
+app-social{
+    float: right;
+    margin-top: 25px;
+}
+
+app-banner{
+float: center;
+}
