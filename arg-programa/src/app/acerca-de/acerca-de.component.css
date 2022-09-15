@@ -17,7 +17,7 @@ div {
 
 @media (min-width: 576px){
     #foto-perfil{
-        position:absolute;
+        position: absolute;
         height: 15%;
         box-shadow: 3px 3px 3px grey;
         left: 5%;
