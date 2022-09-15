@@ -1,0 +1,25 @@
+.row {
+    padding: 20px;
+    }
+
+div {
+    background-color: #a1b5cb;
+    text-align: center;
+}    
+
+#nombre {
+    font-weight: bold;
+    margin-top: 10%;
+    margin-left: 10px;
+}
+
+/*imagen de perfil*/
+
+@media (min-width: 576px){
+    #foto-perfil{
+        position:absolute;
+        height: 15%;
+        box-shadow: 3px 3px 3px grey;
+        left: 5%;
+    }
+}
