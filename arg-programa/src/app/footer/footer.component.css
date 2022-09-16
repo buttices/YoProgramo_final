@@ -1,0 +1,9 @@
+.row{
+    background-color: black;
+}
+
+p{
+    color: rgb(207, 207, 207);
+    text-align: center;
+    padding-top: 10px;
+}
