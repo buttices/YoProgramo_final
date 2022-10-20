@@ -27,9 +27,12 @@
                  <button type="summit"> Mostrar Personas </button>
             </form>
             <h1>Eliminar Personas</h1>
-            <p> Ingrese el DNI de la persona a eliminar</p>
-            <p><label>DNI:</label> <input type="text" name="dni_elim"></p>
+            <p> Ingrese el ID de la persona a eliminar</p>
+            <form action="SvEliminar" method="POST">
+                 <p><label>ID:</label> <input type="text" name="id_eliminar"></p>
             <button type="summit"> Eliminar </button>
+            </form>
+            
             
             
             

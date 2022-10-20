@@ -1,4 +1,3 @@
-
 package com.portfolio.buttices.Controller;
 
 import com.portfolio.buttices.Entity.Persona;
@@ -17,6 +16,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class PersonaController {
     @Autowired IPersonaService ipersonaService; 
+    
+    @GetMapping("/hola")
+    public String decirHola(){
+        return "Hola";
+   }
+    
     
     @GetMapping("/personas/traer")
     public List<Persona> getPersona() {

@@ -1,4 +1,3 @@
-
 package com.portfolio.buttices.Entity;
 
 import javax.persistence.Entity;
