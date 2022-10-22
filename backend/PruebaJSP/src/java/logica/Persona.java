@@ -19,13 +19,13 @@ public class Persona implements Serializable {
         private String dni;
         private String nombre;
         private String apellido;
-        private int telefono;
+        private long telefono;
         
 
     public Persona() {
     }
 
-    public Persona(int id, String dni, String nombre, String apellido, int telefono) {
+    public Persona(int id, String dni, String nombre, String apellido, long telefono) {
         this.id = id;
         this.dni = dni;
         this.nombre = nombre;
@@ -65,11 +65,11 @@ public class Persona implements Serializable {
         this.apellido = apellido;
     }
 
-    public int getTelefono() {
+    public long getTelefono() {
         return telefono;
     }
 
-    public void setTelefono(int telefono) {
+    public void setTelefono(long telefono) {
         this.telefono = telefono;
     }
 

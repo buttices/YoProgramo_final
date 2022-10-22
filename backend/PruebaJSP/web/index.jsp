@@ -19,23 +19,19 @@
             <p><label>Apellido:</label> <input type="text" name="apellido"></p>
             <p><label>Telefono:</label> <input type="text" name="telefono"></p>
             <button type="summit">Enviar </button>
-            
-            
-            <h1>Ver lista de personas</h1>
+          </form>
+        
+        <h1>Ver lista de personas</h1>
             <p> Si desea ver la lista completa haga clic aquí</p>
             <form action="SvPersona" method="GET">
                  <button type="summit"> Mostrar Personas </button>
             </form>
-            <h1>Eliminar Personas</h1>
+            
+             <h1>Eliminar Personas</h1>
             <p> Ingrese el ID de la persona a eliminar</p>
             <form action="SvEliminar" method="POST">
                  <p><label>ID:</label> <input type="text" name="id_eliminar"></p>
             <button type="summit"> Eliminar </button>
             </form>
-            
-            
-            
-            
-        </form>
     </body>
 </html>

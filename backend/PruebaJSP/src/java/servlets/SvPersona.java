@@ -49,7 +49,7 @@ public class SvPersona extends HttpServlet {
         String apellido = request.getParameter("apellido");
         String telefono = request.getParameter("telefono");
         
-        Persona pers = new Persona (0, dni, nombre, apellido, 1234);
+        Persona pers = new Persona (0, dni, nombre, apellido, Long.parseLong(telefono));
         control.crearPersona(pers);
         
         response.sendRedirect("index.jsp");
