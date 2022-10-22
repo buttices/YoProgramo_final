@@ -7,9 +7,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ExperienciaComponent implements OnInit {
 
+  jobs: any = [];
+  
   constructor() { }
 
   ngOnInit(): void {
+    fetch('http://localhost:8080/personas/traer',
+    {
+        method: 'GET',
+        headers: { 'Content-Type': 'application/json' },
+    })
+    .then((res) => {console.log(res); return res.json()} )
+    .then((data) => this.jobs=data)
+    
+
   }
 
 }

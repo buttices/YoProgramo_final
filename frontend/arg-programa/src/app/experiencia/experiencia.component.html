@@ -12,7 +12,11 @@
                 <li><h1>Trabajo 3</h1> - <h3>(years)</h3></li>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, minus! Nesciunt voluptate fugit, rerum assumenda veritatis delectus repellat tenetur sit nostrum, autem error maxime nisi reprehenderit ducimus in illum harum!</p>
 
-
+                <div *ngFor = "let job of jobs">
+                {{job.nombre}}
+                {{job.apellido}}
+                {{job.direccion?.dir}}
+                </div>
         </ul>
     
     </div>
